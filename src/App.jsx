@@ -1131,22 +1131,7 @@ export default function App() {
           <div id="contact-form" className="bg-white p-8 rounded-2xl shadow-xl mb-12 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Send Us a Message</h3>
             <form 
-              action="https://formspree.io/f/<!-- modify this form HTML and place wherever you want your form -->
-            <form
               action="https://formspree.io/f/mzzowvgz"
-              method="POST"
-            >
-              <label>
-                Your email:
-                <input type="email" name="email">
-              </label>
-              <label>
-                Your message:
-                <textarea name="message"></textarea>
-              </label>
-              <!-- your other form fields go here -->
-              <button type="submit">Send</button>
-            </form>"
               method="POST"
               className="space-y-6"
             >
