@@ -1131,8 +1131,25 @@ export default function App() {
           <div id="contact-form" className="bg-white p-8 rounded-2xl shadow-xl mb-12 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Send Us a Message</h3>
             <form 
-              action="https://formspree.io/f/mzzowvgz"
-              method="POST"
+              onSubmit={(e) => {
+                e.preventDefault();
+                const formData = new FormData(e.target);
+                const firstName = formData.get('firstName');
+                const lastName = formData.get('lastName');
+                const email = formData.get('email');
+                const organization = formData.get('organization');
+                const subject = formData.get('subject');
+                const message = formData.get('message');
+                
+                const mailtoLink = `mailto:dennis.ehiobu@sutatscode.co.uk?subject=${encodeURIComponent(subject || 'Contact Form Submission')}&body=${encodeURIComponent(
+                  `Name: ${firstName} ${lastName}\n` +
+                  `Email: ${email}\n` +
+                  `Organization: ${organization}\n\n` +
+                  `Message:\n${message}`
+                )}`;
+                
+                window.location.href = mailtoLink;
+              }}
               className="space-y-6"
             >
               <div className="grid md:grid-cols-2 gap-6">
