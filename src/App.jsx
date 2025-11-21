@@ -130,7 +130,7 @@ export default function App() {
                   and enterprise sectors.
                 </p>
                 <p>
-                  Today, we specialise in AI adoption, ambient voice technology, and intelligent automation that 
+                  Today, we specialize in AI adoption, ambient voice technology, and intelligent automation that 
                   enhances operational efficiency while maintaining the highest standards of data governance and 
                   regulatory compliance. Our work spans NHS trusts, financial institutions, and enterprises seeking 
                   to harness the power of AI responsibly and effectively.
@@ -151,7 +151,7 @@ export default function App() {
               <div className="bg-gradient-to-br from-slate-50 to-blue-50 p-8 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Our Mission</h3>
                 <p className="text-gray-700">
-                  To empower organisations with AI-driven solutions that transform operations, enhance 
+                  To empower organizations with AI-driven solutions that transform operations, enhance 
                   decision-making, and deliver measurable value while maintaining unwavering commitment 
                   to data security, compliance, and ethical AI practices.
                 </p>
@@ -220,8 +220,8 @@ export default function App() {
               {
                 icon: Cloud,
                 title: "Cloud Solutions - AWS & Azure",
-                description: "Expert guidance on cloud migration, architecture design, and modernisation strategies across AWS and Azure platforms. AWS certified expertise combined with Azure stack proficiency delivers optimised, secure, and compliant cloud solutions.",
-                features: ["AWS Solutions Architecture", "Azure Cloud Services", "Multi-Cloud Strategy", "Cloud Migration & Modernisation", "Cost Optimisation", "DevOps & Infrastructure as Code"],
+                description: "Expert guidance on cloud migration, architecture design, and modernization strategies across AWS and Azure platforms. AWS certified expertise combined with Azure stack proficiency delivers optimized, secure, and compliant cloud solutions.",
+                features: ["AWS Solutions Architecture", "Azure Cloud Services", "Multi-Cloud Strategy", "Cloud Migration & Modernization", "Cost Optimization", "DevOps & Infrastructure as Code"],
                 section: "services"
               },
               {
@@ -234,7 +234,7 @@ export default function App() {
               {
                 icon: Database,
                 title: "Agentic AI Solutions",
-                description: "Next-generation intelligent systems that autonomously manage workflows, optimise processes, and deliver real-time decision support for clinical and operational teams.",
+                description: "Next-generation intelligent systems that autonomously manage workflows, optimize processes, and deliver real-time decision support for clinical and operational teams.",
                 features: ["Workflow Automation", "Intelligent Agents", "Decision Support Systems"],
                 section: "ai-adoption"
               }
@@ -383,7 +383,7 @@ export default function App() {
                 },
                 {
                   phase: "Scale",
-                  description: "Trust-wide rollout, continuous optimisation, and ongoing support",
+                  description: "Trust-wide rollout, continuous optimization, and ongoing support",
                   duration: "Ongoing"
                 }
               ].map((phase, idx) => (
@@ -425,7 +425,7 @@ export default function App() {
                   "Real-time operational dashboards",
                   "Patient flow analytics",
                   "Clinical outcome tracking",
-                  "Resource utilisation metrics",
+                  "Resource utilization metrics",
                   "Financial performance indicators"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-2">
@@ -464,7 +464,7 @@ export default function App() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Predictive Analytics</h3>
               <p className="text-gray-700 mb-4">
                 Machine learning models that forecast demand, predict patient admissions, identify at-risk 
-                populations, and optimise resource allocation.
+                populations, and optimize resource allocation.
               </p>
               <ul className="space-y-2 text-sm">
                 {[
@@ -492,7 +492,7 @@ export default function App() {
                   Data Management & Engineering
                 </h4>
                 <div className="space-y-3 text-sm text-gray-700">
-                  <p>• <strong>SQL Expertise:</strong> Complex query optimisation, stored procedures, data warehouse design</p>
+                  <p>• <strong>SQL Expertise:</strong> Complex query optimization, stored procedures, data warehouse design</p>
                   <p>• <strong>MongoDB Studio 3T:</strong> NoSQL database design, aggregation pipelines, performance tuning</p>
                   <p>• <strong>Python Analytics:</strong> Pandas, NumPy, scikit-learn for data analysis and modeling</p>
                   <p>• <strong>ETL Pipelines:</strong> Data extraction, transformation, and loading automation</p>
@@ -501,11 +501,11 @@ export default function App() {
               <div>
                 <h4 className="font-semibold text-gray-900 mb-4 flex items-center gap-2">
                   <BarChart3 className="w-6 h-6 text-blue-600" />
-                  Visualisation & Reporting
+                  Visualization & Reporting
                 </h4>
                 <div className="space-y-3 text-sm text-gray-700">
                   <p>• <strong>Power BI:</strong> Interactive dashboards, custom visuals, embedded analytics</p>
-                  <p>• <strong>Tableau:</strong> Advanced visualisations and executive reporting</p>
+                  <p>• <strong>Tableau:</strong> Advanced visualizations and executive reporting</p>
                   <p>• <strong>Custom Dashboards:</strong> React-based interactive analytics applications</p>
                   <p>• <strong>Automated Reporting:</strong> Scheduled reports with intelligent alerting</p>
                 </div>
@@ -551,7 +551,7 @@ export default function App() {
                   <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
                     <h5 className="font-semibold mb-2">Market Risk Reporting</h5>
                     <p className="text-sm text-blue-100">
-                      Specialised knowledge in stress testing, capital adequacy reporting, and regulatory submissions 
+                      Specialized knowledge in stress testing, capital adequacy reporting, and regulatory submissions 
                       for market risk management.
                     </p>
                   </div>
@@ -570,7 +570,7 @@ export default function App() {
                   <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
                     <h5 className="font-semibold mb-2">GDPR Compliance</h5>
                     <p className="text-sm text-blue-100">
-                      Expert implementation of data protection measures, consent management, data minimisation 
+                      Expert implementation of data protection measures, consent management, data minimization 
                       principles, and right-to-be-forgotten workflows.
                     </p>
                   </div>
@@ -612,7 +612,7 @@ export default function App() {
                   "Encryption at rest and in transit",
                   "Access control & authentication",
                   "Audit trail implementation",
-                  "Data masking & anonymisation",
+                  "Data masking & anonymization",
                   "Breach detection & response",
                   "Security testing & validation"
                 ].map((item, idx) => (
@@ -654,7 +654,7 @@ export default function App() {
             </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Strategic Consulting Services</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Expert guidance on technology strategy, digital transformation, and organisational change
+              Expert guidance on technology strategy, digital transformation, and organizational change
             </p>
           </div>
 
@@ -662,14 +662,14 @@ export default function App() {
             <div className="bg-white p-8 rounded-2xl shadow-xl">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Technology Strategy & Roadmapping</h3>
               <p className="text-gray-700 mb-6">
-                With over 10 years of experience across financial services and healthcare, we help organisations 
+                With over 10 years of experience across financial services and healthcare, we help organizations 
                 develop comprehensive technology strategies aligned with business objectives.
               </p>
               <div className="space-y-4">
                 {[
                   {
                     title: "Digital Transformation Roadmaps",
-                    description: "Multi-year strategic plans for modernising technology infrastructure and capabilities"
+                    description: "Multi-year strategic plans for modernizing technology infrastructure and capabilities"
                   },
                   {
                     title: "AI Adoption Strategy",
@@ -705,7 +705,7 @@ export default function App() {
                     description: "Comprehensive elicitation, documentation, and validation of business requirements"
                   },
                   {
-                    title: "Process Optimisation",
+                    title: "Process Optimization",
                     description: "Analysis and redesign of workflows to improve efficiency and reduce waste"
                   },
                   {
@@ -713,8 +713,8 @@ export default function App() {
                     description: "Engagement strategies ensuring alignment across clinical, operational, and IT teams"
                   },
                   {
-                    title: "Benefits Realisation",
-                    description: "Framework for tracking and maximising ROI from technology investments"
+                    title: "Benefits Realization",
+                    description: "Framework for tracking and maximizing ROI from technology investments"
                   }
                 ].map((service, idx) => (
                   <div key={idx} className="border-l-4 border-indigo-600 pl-4">
@@ -735,7 +735,7 @@ export default function App() {
                   <p>• <strong>Lloyds Banking Group:</strong> Market risk data, regulatory reporting, BCBS 239 compliance</p>
                   <p>• <strong>Metro Bank:</strong> Technology transformation, cloud migration, system integration</p>
                   <p>• <strong>Sainsbury's Bank:</strong> Data governance, quality frameworks, audit capabilities</p>
-                  <p>• <strong>WPP:</strong> Business analysis, financial data workflows, reporting optimisation</p>
+                  <p>• <strong>WPP:</strong> Business analysis, financial data workflows, reporting optimization</p>
                 </div>
               </div>
               <div>
@@ -813,14 +813,14 @@ export default function App() {
               </h3>
               <p className="text-blue-100 mb-6 leading-relaxed">
                 Comprehensive implementation of Basel Committee on Banking Supervision's Principles for 
-                Effective Risk Data Aggregation and Risk Reporting (BCBS 239), ensuring your organisation 
+                Effective Risk Data Aggregation and Risk Reporting (BCBS 239), ensuring your organization 
                 meets global standards for risk management infrastructure.
               </p>
               <div className="space-y-4">
                 {[
                   {
                     principle: "Data Governance",
-                    description: "Establishing clear ownership, accountability, and data quality standards across the organisation"
+                    description: "Establishing clear ownership, accountability, and data quality standards across the organization"
                   },
                   {
                     principle: "Data Architecture & IT Infrastructure",
@@ -867,7 +867,7 @@ export default function App() {
                 {
                   institution: "WPP",
                   focus: "Business Analysis",
-                  achievement: "Optimised financial data workflows and reporting"
+                  achievement: "Optimized financial data workflows and reporting"
                 }
               ].map((exp, idx) => (
                 <div key={idx} className="bg-white p-6 rounded-xl shadow-md">
@@ -976,7 +976,7 @@ export default function App() {
                 name: "Rakesh Malik",
                 role: "Technology Professional",
                 company: "CEO Canary Solutions Ltd",
-                testimonial: "Sutatscode's implementation of viable POC system for an AI driven logistics platform for my client has revolutionised their delivery process. The AI-driven solution reduced documentation time by 40% and also reduced licensing fee while improving accuracy. Their understanding of AI solutions bridged with technical expertise was exemplary.",
+                testimonial: "Sutatscode's implementation of viable POC system for an AI driven logistics platform for my client has revolutionized their delivery process. The AI-driven solution reduced documentation time by 40% and also reduced licensing fee while improving accuracy. Their understanding of AI solutions bridged with technical expertise was exemplary.",
                 rating: 5
               },
               {
@@ -1025,7 +1025,7 @@ export default function App() {
               <div className="p-12 bg-gradient-to-br from-blue-600 to-indigo-700 text-white">
                 <h2 className="text-3xl font-bold mb-6">Healthcare AI Transformation</h2>
                 <p className="text-blue-100 mb-8 leading-relaxed">
-                  Specialised expertise in implementing ambient voice technology and AI solutions that meet the unique requirements of NHS trusts and healthcare organisations.
+                  Specialized expertise in implementing ambient voice technology and AI solutions that meet the unique requirements of NHS trusts and healthcare organizations.
                 </p>
                 <div className="space-y-4">
                   {[
@@ -1034,7 +1034,7 @@ export default function App() {
                     "GDPR and NHS compliance frameworks",
                     "Integration with existing EPR systems",
                     "Staff training and change management",
-                    "Ongoing support and optimisation"
+                    "Ongoing support and optimization"
                   ].map((item, idx) => (
                     <div key={idx} className="flex items-center gap-3">
                       <CheckCircle className="w-6 h-6 text-blue-200" />
@@ -1050,7 +1050,7 @@ export default function App() {
                     {
                       step: "01",
                       title: "Discovery & Assessment",
-                      description: "Comprehensive analysis of current workflows and identification of optimisation opportunities"
+                      description: "Comprehensive analysis of current workflows and identification of optimization opportunities"
                     },
                     {
                       step: "02",
@@ -1064,7 +1064,7 @@ export default function App() {
                     },
                     {
                       step: "04",
-                      title: "Optimisation & Support",
+                      title: "Optimization & Support",
                       description: "Ongoing monitoring, refinement, and dedicated support to ensure sustained value"
                     }
                   ].map((phase, idx) => (
@@ -1169,12 +1169,12 @@ export default function App() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Organisation</label>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">Organization</label>
                 <input 
                   type="text"
-                  name="organisation"
+                  name="organization"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
-                  placeholder="Your organisation name"
+                  placeholder="Your organization name"
                 />
               </div>
               <div>
@@ -1253,13 +1253,17 @@ export default function App() {
                 We'd love to hear from you! Whether you're a data analyst, AI engineer, business consultant, 
                 or cloud architect, send us your CV and tell us why you'd be a great fit for Sutatscode.
               </p>
-              <a 
-                href="mailto:dennis.ehiobu@sutatscode.co.uk"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:shadow-xl transition-all"
+              <button 
+                onClick={() => {
+                  const user = 'dennis.ehiobu';
+                  const domain = 'sutatscode.co.uk';
+                  window.location.href = `mailto:${user}@${domain}`;
+                }}
+                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:shadow-xl transition-all cursor-pointer"
               >
                 <Mail className="w-5 h-5" />
                 Send Your CV
-              </a>
+              </button>
             </div>
           </div>
         </div>
