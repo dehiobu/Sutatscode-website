@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Brain, BarChart3, Shield, TrendingUp, CheckCircle, Users, Award, Zap, Database, Cloud, LineChart, Star, ChevronRight, Mail, Phone, MapPin } from 'lucide-react';
-/* imports end */
+
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [scrolled, setScrolled] = useState(false);
@@ -60,12 +60,13 @@ export default function App() {
                 🚀 AI Transformation Specialists
               </div>
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Transforming Healthcare with
+                Driving Digital Transformation with
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent"> Intelligent AI Solutions</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Empowering NHS trusts and healthcare organizations with cutting-edge AI adoption, 
-                ambient voice technology, and data-driven insights that enhance patient care and operational excellence.
+                Delivering AI transformation for organisations across healthcare, financial services, 
+                and enterprise with proven expertise in regulatory compliance, data governance, and 
+                intelligent automation.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button 
