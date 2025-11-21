@@ -221,7 +221,7 @@ export default function App() {
                 icon: Cloud,
                 title: "Cloud Solutions - AWS & Azure",
                 description: "Expert guidance on cloud migration, architecture design, and modernisation strategies across AWS and Azure platforms. AWS certified expertise combined with Azure stack proficiency delivers optimised, secure, and compliant cloud solutions.",
-                features: ["AWS Solutions Architecture", "Azure Cloud Services", "Multi-Cloud Strategy", "Cloud Migration & Modernization", "Cost Optimization", "DevOps & Infrastructure as Code"],
+                features: ["AWS Solutions Architecture", "Azure Cloud Services", "Multi-Cloud Strategy", "Cloud Migration & Modernisation", "Cost Optimisation", "DevOps & Infrastructure as Code"],
                 section: "services"
               },
               {
@@ -425,7 +425,7 @@ export default function App() {
                   "Real-time operational dashboards",
                   "Patient flow analytics",
                   "Clinical outcome tracking",
-                  "Resource utilization metrics",
+                  "Resource utilisation metrics",
                   "Financial performance indicators"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-2">
@@ -501,7 +501,7 @@ export default function App() {
               <div>
                 <h4 className="font-semibold text-gray-900 mb-4 flex items-center gap-2">
                   <BarChart3 className="w-6 h-6 text-blue-600" />
-                  Visualization & Reporting
+                  Visualisation & Reporting
                 </h4>
                 <div className="space-y-3 text-sm text-gray-700">
                   <p>• <strong>Power BI:</strong> Interactive dashboards, custom visuals, embedded analytics</p>
@@ -551,7 +551,7 @@ export default function App() {
                   <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
                     <h5 className="font-semibold mb-2">Market Risk Reporting</h5>
                     <p className="text-sm text-blue-100">
-                      Specialized knowledge in stress testing, capital adequacy reporting, and regulatory submissions 
+                      Specialised knowledge in stress testing, capital adequacy reporting, and regulatory submissions 
                       for market risk management.
                     </p>
                   </div>
@@ -612,7 +612,7 @@ export default function App() {
                   "Encryption at rest and in transit",
                   "Access control & authentication",
                   "Audit trail implementation",
-                  "Data masking & anonymization",
+                  "Data masking & anonymisation",
                   "Breach detection & response",
                   "Security testing & validation"
                 ].map((item, idx) => (
@@ -705,7 +705,7 @@ export default function App() {
                     description: "Comprehensive elicitation, documentation, and validation of business requirements"
                   },
                   {
-                    title: "Process Optimization",
+                    title: "Process Optimisation",
                     description: "Analysis and redesign of workflows to improve efficiency and reduce waste"
                   },
                   {
@@ -713,7 +713,7 @@ export default function App() {
                     description: "Engagement strategies ensuring alignment across clinical, operational, and IT teams"
                   },
                   {
-                    title: "Benefits Realization",
+                    title: "Benefits Realisation",
                     description: "Framework for tracking and maximising ROI from technology investments"
                   }
                 ].map((service, idx) => (
@@ -867,7 +867,7 @@ export default function App() {
                 {
                   institution: "WPP",
                   focus: "Business Analysis",
-                  achievement: "Optimized financial data workflows and reporting"
+                  achievement: "Optimised financial data workflows and reporting"
                 }
               ].map((exp, idx) => (
                 <div key={idx} className="bg-white p-6 rounded-xl shadow-md">
@@ -976,7 +976,7 @@ export default function App() {
                 name: "Rakesh Malik",
                 role: "Technology Professional",
                 company: "CEO Canary Solutions Ltd",
-                testimonial: "Sutatscode's implementation of viable POC system for an AI driven logistics platform for my client has revolutionized their delivery process. The AI-driven solution reduced documentation time by 40% and also reduced licensing fee while improving accuracy. Their understanding of AI solutions bridged with technical expertise was exemplary.",
+                testimonial: "Sutatscode's implementation of viable POC system for an AI driven logistics platform for my client has revolutionised their delivery process. The AI-driven solution reduced documentation time by 40% and also reduced licensing fee while improving accuracy. Their understanding of AI solutions bridged with technical expertise was exemplary.",
                 rating: 5
               },
               {
@@ -1025,7 +1025,7 @@ export default function App() {
               <div className="p-12 bg-gradient-to-br from-blue-600 to-indigo-700 text-white">
                 <h2 className="text-3xl font-bold mb-6">Healthcare AI Transformation</h2>
                 <p className="text-blue-100 mb-8 leading-relaxed">
-                  Specialized expertise in implementing ambient voice technology and AI solutions that meet the unique requirements of NHS trusts and healthcare organisations.
+                  Specialised expertise in implementing ambient voice technology and AI solutions that meet the unique requirements of NHS trusts and healthcare organisations.
                 </p>
                 <div className="space-y-4">
                   {[
@@ -1064,7 +1064,7 @@ export default function App() {
                     },
                     {
                       step: "04",
-                      title: "Optimization & Support",
+                      title: "Optimisation & Support",
                       description: "Ongoing monitoring, refinement, and dedicated support to ensure sustained value"
                     }
                   ].map((phase, idx) => (
@@ -1169,7 +1169,7 @@ export default function App() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Organization</label>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">Organisation</label>
                 <input 
                   type="text"
                   name="organisation"
