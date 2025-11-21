@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Brain, BarChart3, Shield, TrendingUp, CheckCircle, Users, Award, Zap, Database, Cloud, LineChart, Star, ChevronRight, Mail, Phone, MapPin } from 'lucide-react';
-
+/* imports end */
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [scrolled, setScrolled] = useState(false);
