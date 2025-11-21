@@ -1258,7 +1258,7 @@ export default function App() {
                 className="inline-flex items-center gap-3 px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:shadow-xl transition-all"
               >
                 <Mail className="w-5 h-5" />
-                dennis.ehiobu@sutatscode.co.uk
+                Send Your CV
               </a>
             </div>
           </div>
